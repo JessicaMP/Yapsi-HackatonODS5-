@@ -1,0 +1,95 @@
+.color-boton {
+  background-color: #6bf;
+  border: 2px solid #5aa;
+  color: white;
+  border-radius: 10px;
+  }
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+/*Page STudent*/
+.center-align {
+  transform: translateX(0%);
+}
+
+.img-small {
+  width: 30%;
+  transform: translateY(-30%);
+}
+
+.img-small-xs {
+  width: 20%;
+}
+
+.aqua {
+  background-color: aqua;
+  height: 200px
+}
+
+.top-50 {
+  margin-top: 50px;
+}
+
+.top-20 {
+  margin-top: 20px;
+}
+
+.bottom-50 {
+  margin-bottom: 50px;
+}
+
+.left-50 {
+  margin-left: -75px;
+}
+
+.style-ask {
+  padding: 10px;
+  border-radius: 50px;
+}
+
+body {
+  background-image: url('../assets/images/back-blue.PNG');
+  background-position: center center;
+  background-repeat: repeat;
+
+}
+
+/*Colores de botones*/
+.lila {
+  background-color: #e9f;
+}
+
+.aqua-btn {
+  background-color: aqua;
+}
+
+.naranja {
+  background-color: #fc0;
+}
+
+.verde {
+  background-color: #9e5;
+}
+
+/*Cambios*/
+.nav-color {
+  background-color: #8df;
+}
+
+.translate-Y {
+  transform: translateY(-135%);
+}
+
+.translate-Y-right {
+  transform: translateY(-235%);
+}
+
+.translate-Y-emoji {
+  transform: translateY(-55%);
+}
+
+.backgroundImage img:hover {
+  opacity: 0.7;
+    filter: alpha(opacity=70);
+}

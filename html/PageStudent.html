@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yapsi</title>
+    <link rel="icon" href="../assets/icons/yapsi.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../vendors/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <!--___________________________HEADER_________________________________-->
+    <header class="container-fluid" id="all">
+      <!--<nav class="navbar navbar-default container nav-color">
+        <div class="row">
+          <div class="visible-xs col-xs-offset-3">
+            <a class="" href="#">
+              <img alt="Child" src="../assets/images/childrens.png" class="img-small-xs visible-xs-inline-block">
+            </a>
+            <h3 class="text-center visible-xs-inline"><strong>Hola</strong></h3>
+            <a class="" href="#">
+              <img alt="Child" src="../assets/images/childrens2.png" class="img-small-xs visible-xs-inline-block">
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li>
+                <a class="navbar-brand navbar-left" href="#">
+                  <img alt="Child" src="../assets/images/childrens.png" class="img-small">
+                </a>
+                <a class="navbar-brand navbar-left" href="#">
+                  <img alt="Child" src="../assets/images/childrens2.png" class="img-small">
+                </a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav center-align">
+              <li><a href="#"><h4><strong></strong></h4></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="navbar-brand" href="#">
+                  <img alt="Child" src="../assets/images/childrens.png" class="img-small">
+                </a>
+              </li>
+                <a class="navbar-brand" href="#">
+                  <img alt="Child" src="../assets/images/childrens2.png" class="img-small">
+                </a>
+            </ul>
+          </div>
+        </div>
+    </nav>-->
+    </header>
+    <!--¿Cómo te sientes hoy?-->
+    <section class="backgroundImage">
+      <div class="container">
+        <!--Cambio Inicio-->
+        <h1 class="text-center bg-info style-ask col-lg-8 col-lg-offset-2 bottom-50 visible-lg"><strong>¿Cómo te has sentido en clase?</strong></h1>
+        <h2 class="text-center bg-info style-ask col-lg-8 col-lg-offset-2 bottom-50 visible-xs"><strong>¿Cómo te has sentido en clase?</strong></h2>
+        <a class="navbar-left col-lg-offset-2 translate-Y visible-lg" href="#">
+          <img alt="Child" src="../assets/images/childrens.png" class="img-small">
+        </a>
+        <a class="navbar-left col-lg-offset-9 translate-Y-right visible-lg" href="#">
+          <img alt="Child" src="../assets/images/childrens2.png" class="img-small">
+        </a>
+
+        <div class="col-lg-12 col-lg-offset-1 col-xs-12">
+          <!--Cambio Final-->
+          <figure>
+            <a href="#"><img src="../assets/images/happy.png" alt="Emoji feliz" class="col-lg-2 col-xs-6"></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="../assets/images/serio.png" alt="Emoji serio" class="col-lg-2 col-xs-6"></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="../assets/images/sad.png" alt="Emoji triste" class="col-lg-2 col-xs-6"></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="../assets/images/nervios.png" alt="Emoji nervioso" class="col-lg-2 col-xs-6"></a>
+          </figure>
+          <figure class="visible-lg"><!--Cambio Inicio-->
+            <a href="#"><img src="../assets/images/angry1.png" alt="Emoji enojado" class="col-lg-2 col-xs-6"></a>
+          </figure>
+          <figure class="visible-xs">
+            <a href="#"><img src="../assets/images/angry1.png" alt="Emoji enojado" class="col-lg-2 col-xs-6 left-50"></a>
+          </figure><!--Cambio Fin-->
+        </div>
+        <div class="col-lg-offset-5 col-xs-offset-4">
+          <button type="button" class="btn btn-xs visible-lg top-50 color-boton active col-lg-3" data-toggle="modal" data-target=".bs-example-modal-lg">
+            <h2><strong>Siguiente</strong></h2>
+          </button>
+          <button type="button" class="btn btn-xs visible-xs top-20 color-boton active col-xs-6" data-toggle="modal" data-target=".bs-example-modal-lg">
+            <h4><strong>Siguiente</strong></h4>
+          </button>
+        </div>
+
+        <!--Modal Profesora-->
+        <div  id="modal1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg " role="document">
+            <div class="modal-content  ">
+              <div class="modal-body col-lg-12 alert-info">
+                <figure>
+                  <img src="../assets/images/profe.png" alt="Profesora" class="col-xs-9 col-xs-offset-2 col-lg-4 col-lg-offset-0">
+                </figure>
+                <!--Preguntas--><!--Cambio Inicio-->
+                <div class="col-lg-8 col-xs-12">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">1.- Tu profesora de esducación fisica te deja jugar con:</label>
+                    <div class="col-lg-12 top-20 col-lg-offset-2 visible-xs-inline-block visible-lg-inline-block">
+                      <input class="btn btn-default col-lg-2 col-xs-offset-2 col-lg-offset-0 col-xs-4 lila" type="button" value="Sólo niñas">
+                      <input class="btn btn-default col-lg-2 col-xs-4 aqua-btn" type="submit" value="Sólo niños">
+                      <input class="btn btn-default col-lg-2 col-xs-offset-2 col-lg-offset-0 col-xs-4 naranja" type="button" value="todos">
+                      <input class="btn btn-default col-lg-2 col-xs-4 verde" type="submit" value="nadie">
+                    </div>
+                  </div>
+                  <div class="form-group col-lg-8">
+                    <label for="exampleInputPassword1" class="center-block">2.- ¿Tus profesores te tratan bien?</label>
+                    <div class=" col-xs-12 top-20 col-lg-offset-2 visible-xs-inline-block visible-lg-inline-block">
+                      <input class="btn btn-default col-lg-2 col-lg-offset-1 col-xs-3 lila" type="button" value="Si">
+                      <input class="btn btn-default col-lg-6 col-xs-9 aqua-btn" type="submit" value="Ninguno me trata bien">
+                      <input class="btn btn-default col-lg-2 col-xs-3 naranja" type="button" value="No">
+                      <input class="btn btn-default col-lg-6 col-lg-offset-3 col-xs-8 verde" type="submit" value="Todos me trata bien">
+                    </div>
+
+                    <label for="exampleInputEmail2">3.- El profesor tiene preferencia por:</label>
+                    <div class="top-20 col-lg-offset-4">
+                      <input class="btn btn-default col-lg-3 col-lg-offset-3 col-xs-offset-3 lila" type="button" value="Niñas">
+                      <input class="btn btn-default col-lg-3 aqua-btn" type="submit" value="Niños">
+                      <input class="btn btn-default col-lg-12 naranja col-xs-offset-1" type="button" value="Me tratan igual que los demás">
+                    </div>
+
+                  </div>
+                </div>
+                <!--Cambio Fin-->
+              </div>
+              <div class="modal-footer  alert-info">
+                <button id="btn-1" type="button" class="btn btn-primary active" data-toggle="modal" data-target="#next">Siguiente</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Modal Niña-->
+      <div class="modal fade" id="next" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <!--Cambio Inicio--><div class="modal-body col-lg-12 alert-info"><!--Cambio Fin-->
+              <figure>
+                <img src="../assets/images/girl2.png" alt="Niña" class="col-lg-4">
+              </figure>
+              <!--Preguntas-->
+              <div class="col-lg-8">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">4.- ¿Desde hace cuanto te molestan tus compañeros?</label>
+                  <div class="col-lg-12 top-20"><!--Cambio Inicio-->
+                    <input class="btn btn-default col-lg-3 lila" type="button" value="Hace unos meses">
+                    <input class="btn btn-default col-lg-3 aqua-btn" type="submit" value="Esta semana">
+                    <input class="btn btn-default col-lg-2 naranja col-lg-offset-0 col-xs-offset-1" type="button" value="Siempre">
+                    <input class="btn btn-default col-lg-3 verde" type="submit" value="No me molestan">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="center-block">5.- ¿En que lugar te suelen molestar?</label>
+                  <div class="col-lg-12 top-20 col-lg-offset-1">
+                    <input class="btn btn-default col-lg-2 lila col-lg-offset-0 col-xs-offset-2" type="button" value="En el salon">
+                    <input class="btn btn-default col-lg-2 aqua-btn" type="submit" value="En el baño">
+                    <input class="btn btn-default col-lg-2 naranja col-lg-offset-0 col-xs-offset-1" type="button" value="En el patio">
+                    <input class="btn btn-default col-lg-3 verde" type="submit" value="No me molestan">
+                  </div>
+                  <label for="exampleInputEmail2">6.- ¿Por qué crees que te han molestado?</label>
+                  <div class="col-lg-12 top-20">
+                    <input class="btn btn-default col-lg-2 lila" type="button" value="No lo se">
+                    <input class="btn btn-default col-lg-4 aqua-btn" type="submit" value="Porque se lo merece">
+                    <input class="btn btn-default col-lg-3 naranja col-lg-offset-0 col-xs-offset-2" type="button" value="Porque soy diferente">
+                    <input class="btn btn-default col-lg-3 verde col-lg-offset-0 col-xs-offset-3" type="submit" value="No me molestan">
+                  </div><!--Cambio Fin-->
+
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer  alert-info">
+              <button id="btn-2" type="button" class="btn btn-primary active" data-toggle="modal" data-target="#next2">Siguiente</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Modal Niño-->
+    <div class="modal fade" id="next2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body col-lg-12  alert-info">
+            <figure>
+              <img src="../assets/images/boy.png" alt="Niño" class="col-lg-4">
+            </figure>
+            <!--Preguntas-->
+            <div class="col-lg-8">
+              <div class="form-group">
+                <label for="exampleInputPassword2" class="center-block">7.- ¿Por qué molestas a tus compañeros?</label><!--Cambio Inicio-->
+                <div class="col-lg-12 top-20">
+                  <input class="btn btn-default col-lg-3 lila col-lg-offset-0 col-xs-offset-2" type="button" value="Porque son débiles">
+                  <input class="btn btn-default col-lg-3 aqua-btn col-lg-offset-0 col-xs-offset-1" type="submit" value="Porque también me molestan">
+                  <input class="btn btn-default col-lg-3 naranja" type="button" value="No molesto a nadie">
+                  <input class="btn btn-default col-lg-3 verde" type="submit" value="Por molestar">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="center-block">8.- ¿Has visto que molestan a otros niños?</label>
+                <div class="col-lg-12 top-20">
+                  <input class="btn btn-default col-lg-3 lila" type="button" value="Si mis amigos">
+                  <input class="btn btn-default col-lg-2 aqua-btn col-lg-offset-0 col-xs-offset-1" type="submit" value="No he visto">
+                  <input class="btn btn-default col-lg-3 naranja col-lg-offset-0 col-xs-offset-3" type="button" value="Si mis amigas">
+                  <input class="btn btn-default col-lg-4 verde col-lg-offset-0 col-xs-offset-2" type="submit" value="Aveces amigos y amigas">
+                </div>
+                <label for="exampleInputEmail2">9.- ¿Quién detiene las peleas?</label>
+                <div class="col-lg-12 top-20 col-lg-offset-1">
+                  <input class="btn btn-default col-lg-2 lila col-lg-offset-0 col-xs-offset-1" type="button" value="No lo se">
+                  <input class="btn btn-default col-lg-3 aqua-btn" type="submit" value="Algún profesor">
+                  <input class="btn btn-default col-lg-2 naranja col-lg-offset-0 col-xs-offset-1" type="button" value="Nadie">
+                  <input class="btn btn-default col-lg-3 verde" type="submit" value="Algún compañero">
+                </div><!--Cambio Fin-->
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer alert-info">
+            <button id="btn-3" type="button" class="btn btn-primary active" data-toggle="modal" data-target="#end">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Modal Final-->
+      <div class="modal fade" id="end" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header  alert-info">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title text-center" id="myModalLabel"><strong>Cuentanos algo más</strong></h4>
+            </div>
+            <div class="modal-body alert-info visible-lg">
+              <textarea name="name" rows="8" cols="70" class="center-block" placeholder="Me siento......"></textarea>
+            </div>
+            <div class="modal-body alert-info visible-xs">
+              <textarea name="name" rows="8" cols="40" class="center-block" placeholder="Me siento......"></textarea>
+            </div>
+            <div class="modal-footer alert-info">
+              <button type="button" class="btn btn-primary" id="send">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../vendors/Bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>
